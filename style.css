@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    height: 400px;
+}
+
+.container {
+    height: 100% !important;
+    position: relative !important;
+    top: 30% !important;
+}
+
+.subtitle {
+    text-align: center !important;
+    margin-bottom: 50px;
+}
+
+.box-btn {
+    align-items: center;
+    justify-content: center;
+}
+
+
+#yes , #no{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #ccc;
+    color: red;
+    margin: 0 20px;
+}
+#ketqua {
+    display: none;
+}
+
+#boxchua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
